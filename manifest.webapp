@@ -1,0 +1,28 @@
+{
+  "name": "Crates",
+  "description": "A Sokoban like puzzle game",
+  "type": "web",
+  "launch_path": "/index.html",
+  "version": "0.9",
+  "developer": {
+    "name": "Dirk Hoeschen (rubbel@c-base.org)",
+    "url": "https://github.com/rubbel/tux-crates"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Tux Crates",
+      "description": "A Sokoban like puzzle game"
+    },
+    "de-De": {
+      "name": "Tux Kistenraetsel",
+      "description": "Ein Kistenschiebespiel"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "120": "/style/icons/Crates.png",
+    "60": "/style/icons/60/Crates.png"
+  },
+  "orientation": "portrait-primary",
+  "fullscreen" : "true"
+}
