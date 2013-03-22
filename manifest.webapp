@@ -20,8 +20,8 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "128": "/style/icons/Crates.png",
-    "60": "/style/icons/60/Crates.png"
+    "128": "/tux-crates/style/icons/Crates.png",
+    "60": "/tux-crates/style/icons/60/Crates.png"
   },
   "orientation": "portrait-primary",
   "fullscreen" : "true"
