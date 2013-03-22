@@ -2,7 +2,7 @@
   "name": "Crates",
   "description": "A Sokoban like puzzle game",
   "type": "web",
-  "launch_path": "/",
+  "launch_path": "/tux-crates/index.html",
   "version": "0.9",
   "developer": {
     "name": "Dirk Hoeschen (rubbel@c-base.org)",
