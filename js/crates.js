@@ -114,7 +114,7 @@ var Crates = {
   },
   handlePan: function crates_handlePan(evt) {
 	  evt.cancelBubble = true;
-	  navigator.vibrate(200);
+	  navigator.vibrate(100);
 	  var way = evt.detail.direction;
 		if (way=="down") this.move(0,1)
 		else if (way=="up") this.move(0,-1)
