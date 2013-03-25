@@ -15,6 +15,11 @@ body {
   overflow: hidden !important;
 }
 
+h2 {
+  margin: 0.5em 0;
+  font-size: 15px;
+}
+
 #title { margin: 50px 0; }
 #title img { margin: 0 auto 20px auto; width: 320px; height: 120px; cursor: pointer; }
 

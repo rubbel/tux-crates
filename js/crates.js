@@ -101,18 +101,21 @@ var Crates = {
   },
   handleKeys: function crates_handleKeys(evt) {
 	 var code = evt.charCode;
-	 if (code==100 || code==68) this.move(1,0)
-	 else if (code==97 || code==65) this.move(-1,0)
-	 else if (code==83 || code==115) this.move(0,1)
-	 else if (code==87 || code==119) this.move(0,-1)
+	 var key = evt.keyCode;
+	 console.log(key);
+	 if (code==100 || code==68 || key==39) this.move(1,0)
+	 else if (code==97 || code==65 || key==37) this.move(-1,0)
+	 else if (code==83 || code==115 || key==40) this.move(0,1)
+	 else if (code==87 || code==119 || key==38) this.move(0,-1)
 	 else if (code==85 || code==117) this.undoMove()
-	 else if (code==43) this.levelUp()
-	 else if (code==45) this.levelDown()
+	 else if (code==43 || key==33) this.levelUp()
+	 else if (code==45 || key==34) this.levelDown()
 	 else if (code==32) this.initLevel();	 	 
   },
   handlePan: function crates_handlePan(evt) {
+	  evt.cancelBubble = true;
+	  navigator.vibrate(200);
 	  var way = evt.detail.direction;
-		console.log(way);
 		if (way=="down") this.move(0,1)
 		else if (way=="up") this.move(0,-1)
 		else if (way=="right") this.move(1,0)

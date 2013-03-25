@@ -13,7 +13,7 @@ The game is still alpha and not fully functional
 
 Keys:
 =============
-Move: w s a d
+Move: W A S D
 Level UP: +
 Level Down: -
 Reload level: space
