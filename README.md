@@ -1,15 +1,14 @@
-tux-crates
+Tux Crates Adventure
 ==========
-@version: 0.6a
+@version: 0.9b
 @author: dirk hoeschen aka rubbedecatc (rubbel@c-base.org)
 
 Released as Public Domain (2013)
+The game is still alpha and not fully functional
 
 Tux Crates Open Web APP for Firefox OS.
 It's a Sokoban like puzzle-game which workin on every handy, touchpad and modern browsers.
 http://en.wikipedia.org/wiki/Sokoban
-
-The game is still alpha and not fully functional
 
 Keys:
 =============
@@ -21,5 +20,5 @@ Undo move: u
 
 Gestures:
 ============
-Hold and Pan: move player
-Doubletap: undo last move
+Move: Hold and Pan
+Undo move: Tap on playfield
